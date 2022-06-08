@@ -1,0 +1,22 @@
+/* Generics */
+
+body{
+    font-family: sans-serif;
+}
+
+.row > [class^='col']{
+    background-color: #006cfa;
+    min-height: 80px;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.row span{
+    color: white;
+}
+
+.row > .nested{
+    background-color: #00e165;
+    border: 2px solid #006cfa;
+}
+
